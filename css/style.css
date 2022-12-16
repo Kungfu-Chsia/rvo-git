@@ -1230,7 +1230,7 @@ button,
 }
 
 .clients img {
-  width: 360px;
+  width: 302px;
   height: 250px;
   -o-object-fit: contain;
   object-fit: contain;
@@ -1238,7 +1238,7 @@ button,
 
 .clients__button {
   position: absolute;
-  bottom: 135px;
+  bottom: 114px;
   width: 23px;
   height: 23px;
   background-color: transparent;
@@ -1391,6 +1391,11 @@ button,
 
 .services-about__nav li:hover {
   opacity: 0.7;
+}
+
+.services-about__nav li a {
+  color: #effafa;
+  display: inline-block;
 }
 
 .services-about__nav li p {
@@ -1965,6 +1970,19 @@ button,
   }
 }
 
+@media (max-width: 1317px) {
+  .details__list-item-info a {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-left: 0;
+  }
+
+  .details__list-item-info a::before {
+    left: 0;
+  }
+}
+
 @media (max-width: 1275px) {
   .services-about__nav li {
     width: 32.7%;
@@ -2109,6 +2127,10 @@ button,
   .clients img {
     width: 230px;
     height: 230px;
+  }
+
+  .clients__button {
+    bottom: 104px;
   }
 
   .page-footer__nav-list {
@@ -2270,14 +2292,34 @@ button,
     line-height: 26px;
   }
 
-  .details__list-item-info a {
-    font-size: 16px;
-    line-height: 24px;
+  .details__list-item-wrap {
+    width: 70%;
+  }
+
+  .details__list-item-wrap--guide img:nth-child(even) {
+    margin-right: 15px;
+  }
+
+  .details__list-item-info {
+    margin-top: 62px;
+    width: 30%;
+  }
+
+  .details__list-item-info--down-mob {
+    margin-top: 88px;
   }
 
   .details__list-item-wrap h3 {
     font-size: 18px;
     line-height: 26px;
+  }
+
+  .details__list-description p {
+    padding-left: 18px;
+  }
+
+  .details__list-description p::before {
+    left: 0;
   }
 
   .progress__foto img {
@@ -2292,6 +2334,12 @@ button,
   }
 }
 
+@media (max-width: 1024px) {
+  .details__list-item-info--down {
+    margin-top: 88px;
+  }
+}
+
 @media (max-width: 997px) {
   .services-about__nav li {
     width: 32.5%;
@@ -2301,6 +2349,12 @@ button,
 @media (max-width: 908px) {
   .promo__wrap h2 {
     width: 90%;
+  }
+}
+
+@media (max-width: 906px) {
+  .details__list-item-info--down-ekf {
+    margin-top: 88px;
   }
 }
 
@@ -2729,9 +2783,28 @@ button,
     line-height: 22px;
   }
 
+  .details__list {
+    padding-top: 20px;
+  }
+
+  .details__list-item-wrap {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .details__list-item-info {
+    width: 100%;
+    margin-top: 20px;
+  }
+
   .details__list-item-info a {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .details__list-item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .details__list-item-wrap h3 {
@@ -2770,7 +2843,7 @@ button,
 
 @media (min-width: 1200px) and (max-width: 1365px) {
   .clients__swiper {
-    width: 860px;
+    width: 1050px;
   }
 
   .team__swiper {
