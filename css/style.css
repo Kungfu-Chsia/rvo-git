@@ -986,6 +986,7 @@ button,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-right: 30px;
 }
 
 .page-header__list {
@@ -1000,6 +1001,7 @@ button,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  min-width: 500px;
 }
 
 .page-header__list-contacts {
@@ -1014,6 +1016,12 @@ button,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  max-height: 75px;
+  -ms-flex-line-pack: end;
+  align-content: end;
 }
 
 .page-header__list-contacts li {
@@ -1521,9 +1529,10 @@ button,
   width: 86%;
 }
 
-.about p:nth-last-child(-n+3) {
+.about p:nth-last-child(-n+2) {
   width: 50%;
   position: relative;
+  text-align: start;
 }
 
 .about p:last-child::after {
@@ -1536,7 +1545,7 @@ button,
   -webkit-transform: translate(50%);
   -ms-transform: translate(50%);
   transform: translate(50%);
-  bottom: 81px;
+  bottom: 0;
 }
 
 .team {
@@ -2011,14 +2020,15 @@ button,
     margin-right: 25px;
   }
 
+  .page-header__list {
+    min-width: 100%;
+  }
+
   .page-header__item {
-    width: 50%;
+    width: auto;
   }
 
   .page-header__list-contacts {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
     min-width: auto;
   }
 
@@ -2028,7 +2038,7 @@ button,
 
   .page-header__list a,
   .page-header__list-contacts a {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .page-header__list a {
@@ -2197,21 +2207,10 @@ button,
     line-height: 25px;
   }
 
-  .about p:nth-last-child(-n+3) {
-    width: 86%;
-    position: relative;
-  }
-
-  .about p:nth-last-child(-n+2) {
-    width: 50%;
-    position: relative;
-  }
-
   .about p:last-child::after {
     width: 300px;
     height: 300px;
     right: -198px;
-    bottom: 0;
   }
 
   .team__swiper {
@@ -2392,18 +2391,22 @@ button,
   }
 
   .page-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .page-header__logo {
-    margin-top: 17px;
-    margin-right: 15px;
+    margin-top: 9px;
+    margin-right: 14px;
   }
 
   .page-header__logo svg {
-    width: 60px;
-    height: 60px;
+    width: 77px;
+    height: 77px;
+  }
+
+  .page-header__nav {
+    margin-right: 0;
   }
 
   .page-header__list {
@@ -2434,11 +2437,13 @@ button,
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
   }
 
   .page-header__list a,
   .page-header__list-contacts a {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 14px;
   }
 
@@ -2648,6 +2653,10 @@ button,
     top: 22px;
   }
 
+  .about {
+    margin-top: 102px;
+  }
+
   .about__wrap {
     padding-bottom: 15px;
   }
@@ -2666,14 +2675,10 @@ button,
     width: 100%;
   }
 
-  .about p:nth-last-child(-n+3) {
-    width: 100%;
-    position: relative;
-  }
-
   .about p:nth-last-child(-n+2) {
     width: 100%;
     position: relative;
+    text-align: justify;
   }
 
   .about p:last-child {
@@ -2688,7 +2693,7 @@ button,
   }
 
   .team__swiper {
-    width: 260px;
+    width: 150px;
     max-width: 100%;
   }
 
