@@ -1846,11 +1846,15 @@ button,
 }
 
 .details__list-item-wrap--guide img {
-  width: 48%;
+  width: 85%;
 }
 
 .details__list-item-wrap--guide img:nth-child(even) {
   margin-right: 20px;
+}
+
+.details__list-item-wrap--guide picture {
+  width: 50%;
 }
 
 .details__list-item-info {
@@ -1959,10 +1963,14 @@ button,
 }
 
 .progress__foto img {
-  width: 46%;
+  width: 100%;
   -webkit-box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.35);
   box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.35);
   border-radius: 10px;
+}
+
+.progress__foto picture {
+  width: 46%;
 }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
@@ -2297,6 +2305,11 @@ button,
 
   .details__list-item-wrap--guide img:nth-child(even) {
     margin-right: 15px;
+    width: 60%;
+  }
+
+  .details__list-item-wrap--guide picture {
+    width: 100%;
   }
 
   .details__list-item-info {
@@ -2320,10 +2333,6 @@ button,
   .details__list-description p::before {
     left: 0;
   }
-
-  .progress__foto img {
-    width: 40%;
-  }
 }
 
 @media (max-width: 1199px) and (max-width: 767px) {
@@ -2342,6 +2351,12 @@ button,
 @media (max-width: 997px) {
   .services-about__nav li {
     width: 32.5%;
+  }
+}
+
+@media (max-width: 939px) {
+  .progress__foto picture {
+    width: 44%;
   }
 }
 
@@ -2797,6 +2812,10 @@ button,
     margin-right: 0;
   }
 
+  .details__list-item-wrap--guide img:nth-child(even) {
+    width: 80%;
+  }
+
   .details__list-item-info {
     width: 100%;
     margin-top: 20px;
@@ -2818,6 +2837,10 @@ button,
   }
 
   .progress__foto img {
+    width: 100%;
+  }
+
+  .progress__foto picture {
     width: 100%;
   }
 }
