@@ -1503,7 +1503,7 @@ button,
 }
 
 .about {
-  margin-top: 125px;
+  margin-top: 160px;
   background-color: #cbeaeb;
 }
 
@@ -2226,6 +2226,10 @@ button,
     width: 100%;
   }
 
+  .contacts {
+    margin-top: 105px;
+  }
+
   .contacts h3 {
     font-size: 26px;
     line-height: 28px;
@@ -2536,6 +2540,10 @@ button,
     border-bottom: 1px solid #1d7373;
   }
 
+  .industries__list li:last-child {
+    border-bottom: none;
+  }
+
   .industries__list p::before {
     width: 20px;
     height: 20px;
@@ -2724,6 +2732,10 @@ button,
     right: 23px;
     width: 14px;
     height: 14px;
+  }
+
+  .contacts {
+    margin-top: 90px;
   }
 
   .contacts h3 {
