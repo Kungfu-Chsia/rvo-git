@@ -1071,7 +1071,7 @@ button,
   text-shadow: 11px 6px 5px #000f16;
   width: 50%;
   position: absolute;
-  top: 22%;
+  top: 31%;
 }
 
 .promo__wrap h2::before {
@@ -1088,7 +1088,7 @@ button,
   line-height: 46px;
   color: #a4ffff;
   position: absolute;
-  top: 42%;
+  top: 49%;
   width: 50%;
   text-shadow: 9px 7px 3px #000f16;
 }
@@ -2061,7 +2061,6 @@ button,
   .promo__wrap h2 {
     font-size: 40px;
     line-height: 56px;
-    top: 24%;
     width: 42%;
   }
 
@@ -2875,6 +2874,12 @@ button,
   }
 }
 
+@media (max-width: 464px) {
+  .services-about__list-item br {
+    display: block;
+  }
+}
+
 @media (max-width: 423px) {
   .services-about__nav li {
     width: 48.6%;
@@ -2884,12 +2889,6 @@ button,
 @media (max-width: 386px) {
   .services-about__nav li {
     width: 48%;
-  }
-}
-
-@media (max-width: 370px) {
-  .services-about__list-item br {
-    display: block;
   }
 }
 
