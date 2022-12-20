@@ -1628,7 +1628,7 @@ button,
 }
 
 .contacts {
-  margin-top: 125px;
+  margin-top: 160px;
 }
 
 .contacts h3 {
@@ -2167,6 +2167,10 @@ button,
     margin-bottom: 100px;
   }
 
+  .services-about--static {
+    margin-top: 45px;
+  }
+
   .services-about h3 {
     font-size: 26px;
     line-height: 28px;
@@ -2208,6 +2212,7 @@ button,
   .about h3 {
     font-size: 26px;
     line-height: 28px;
+    padding-top: 45px;
   }
 
   .about p {
@@ -2227,7 +2232,7 @@ button,
   }
 
   .contacts {
-    margin-top: 105px;
+    margin-top: 135px;
   }
 
   .contacts h3 {
@@ -2263,6 +2268,7 @@ button,
   .cases h2 {
     font-size: 26px;
     line-height: 28px;
+    padding-top: 44px;
   }
 
   .cases__list-item {
@@ -2622,6 +2628,10 @@ button,
     margin-bottom: 50px;
   }
 
+  .services-about--static {
+    margin-top: 35px;
+  }
+
   .services-about h3 {
     font-size: 24px;
     line-height: 26px;
@@ -2687,6 +2697,7 @@ button,
   .about h3 {
     font-size: 24px;
     line-height: 26px;
+    padding-top: 35px;
   }
 
   .about p {
@@ -2771,6 +2782,7 @@ button,
   .cases h2 {
     font-size: 24px;
     line-height: 26px;
+    padding-top: 34px;
   }
 
   .cases__list {
