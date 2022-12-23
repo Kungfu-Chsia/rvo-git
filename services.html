@@ -15,39 +15,44 @@
   </head>
 
   <body>
-    <header class="page-header page-header--static">
-      <div class="container page-header__wrapper">
-        <nav class="page-header__nav">
-          <a href="index.html" class="page-header__logo" aria-label="logo">
-            <svg class="page-header__icon-logo" width="120" height="120">
-              <use xlink:href="img/sprite/sprite.svg#logo"></use>
-            </svg>
-          </a>
-          <ul class="page-header__list">
-            <li class="page-header__item">
-              <a href="about.html">О компании</a>
+    <header class="page-header page-header--static page-header--closed">
+      <div class="page-header__wrap">
+        <div class="container page-header__wrapper">
+          <nav class="page-header__nav main-nav ">
+            <a href="index.html" class="page-header__logo" aria-label="logo">
+              <svg class="page-header__icon-logo" width="120" height="120">
+                <use xlink:href="img/sprite/sprite.svg#logo"></use>
+              </svg>
+            </a>
+            <button class="page-header__toggle main-nav__toggle" type="button"><span class="visually-hidden">Открыть
+              меню</span></button>
+            <ul class="page-header__list">
+              <li class="page-header__item">
+                <a href="about.html">О компании</a>
+              </li>
+              <li class="page-header__item">
+                <a href="services.html">Услуги</a>
+              </li>
+              <li class="page-header__item">
+                <a href="cases.html">Портфолио</a>
+              </li>
+              <li class="page-header__item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="page-header__list-contacts">
+            <li>
+              <a class="page-header__phone" href="tel:84942461482" aria-label="телефон РВО-Софт">8 (4942) 46-14-82</a>
             </li>
-            <li class="page-header__item">
-              <a href="services.html">Услуги</a>
-            </li>
-            <li class="page-header__item">
-              <a href="cases.html">Портфолио</a>
-            </li>
-            <li class="page-header__item">
-              <a href="contacts.html">Контакты</a>
+            <li>
+              <a class="page-header__phone" href="tel:84942420182" aria-label="телефон РВО-Софт">8 (4942) 42-01-82</a>
             </li>
           </ul>
-        </nav>
-        <ul class="page-header__list-contacts">
-          <li>
-            <a class="page-header__phone" href="tel:84942461482" aria-label="телефон РВО-Софт">8 (4942) 46-14-82</a>
-          </li>
-          <li>
-            <a class="page-header__phone" href="tel:84942420182" aria-label="телефон РВО-Софт">8 (4942) 42-01-82</a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
+
 
     <main>
       <section class="services-about services-about--static container">
